@@ -22,7 +22,7 @@ const playfair = Playfair_Display({
 import WhatsAppButton from './components/WhatsAppButton'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://hexstudio.tech'),
+  metadataBase: new URL('https://www.hexstudio.com.tr'),
   title: 'Hex Studio - AI & Software Development Agency',
   description: 'Empowering businesses with cutting-edge AI solutions, web development, and digital transformation. From custom AI agents to modern web applications.',
   keywords: 'AI, software development, web design, mobile apps, digital agency, Istanbul',
