@@ -1,5 +1,7 @@
 'use client'
 
+import HexMailAnnouncement from './components/HexMailAnnouncement'
+
 import Link from 'next/link'
 import dynamic from 'next/dynamic'
 import Navbar from './components/Navbar'
@@ -62,6 +64,11 @@ export default function Home() {
               </button>
             </Link>
           </div>
+        </section>
+
+        {/* [NEW] HexMail Announcement Section */}
+        <section className="w-full">
+            <HexMailAnnouncement />
         </section>
 
         {/* Bento Grid Features */}

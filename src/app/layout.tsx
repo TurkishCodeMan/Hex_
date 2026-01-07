@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     siteName: 'Hex Studio',
     images: [
       {
-        url: '/app_icon_512.svg',
+        url: '/favicon/android-chrome-512x512.png',
         width: 512,
         height: 512,
         alt: 'Hex Studio AI & Software',
@@ -67,7 +67,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Hex Studio - AI & Software Development',
     description: 'Cutting-edge AI solutions and software development.',
-    images: ['/app_icon_512.svg'],
+    images: ['/favicon/android-chrome-512x512.png'],
   },
   robots: {
     index: true,
